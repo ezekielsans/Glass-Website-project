@@ -18,17 +18,19 @@ main {
     width: 60%;
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
+    /* paste in back  */
     z-index: 3;
+    /* blur background */
     backdrop-filter: blur(2rem);
 }
 
 .circle1,
 .circle2 {
     background: #ffffff;
-    background: linear-gradient( to right bottom, rgba(225, 225, 225, 0.7), rgba(255, 255, 255, 0.3));
-    border-radius: 8rem;
-    height: 15rem;
-    width: 15rem;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
     position: absolute;
 }
 
